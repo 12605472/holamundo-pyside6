@@ -72,4 +72,6 @@ $ pip install -r requirements.txt
 python3 src/holamundo_pyside6/holamundo.py
 ```
 
-Nos mostrará la aplicación *holamundo_pyside6* en ejecución.
+Nos mostrará la aplicación *holamundo_pyside6* en ejecución.  
+
+![Aplicación HolaMundo](holamundo.png)
