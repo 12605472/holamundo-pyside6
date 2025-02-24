@@ -23,4 +23,53 @@ $ python3 --version
 
 De no estar instalada, se puede descargar desde [aquí.](https://www.python.org/downloads/)  
 
-Para más información de como instalar, consultar la [documentación](https://www.python.org/doc/)
+Para más información de como instalar, consultar la [documentación](https://www.python.org/doc/)  
+
+###### Windows  
+Descargar el instalador haciendo clic [aquí](https://www.python.org/downloads/release/python-3132/)  
+
+Se dispone de más informacion sobre su instalación en el siguiente [enlace](https://www.python.org/doc/)  
+
+###### macOS  
+Se dispone del binario ejecutable en el siguiente [enlace](https://www.python.org/downloads/release/python-3132/)  
+
+Se dispone de más informacion sobre su instalación en el siguiente [enlace](https://www.python.org/doc/)  
+
+#### Creación de un entorno virtual (venv)  
+- - -  
+Para crear un entorno virtual y poder aislar la ejecución del resto del sistema (sandbox), ejecutamos la siguiente instrucción en una terminal.  
+
+```bash
+$ python3 -m venv venv
+```
+
+#### Activación del entorno virtual  
+- - -  
+
+###### Linux y macOS  
+
+```bash
+$ source venv/bin/activate
+```  
+
+###### Windows  
+
+```bash
+$ venv/Scripts/activate.bat
+```
+
+#### Instalación de dependencias  
+- - -  
+
+```bash
+$ pip install -r requirements.txt
+```
+
+#### Ejecución  
+- - -  
+
+```bash
+python3 src/holamundo_pyside6/holamundo.py
+```
+
+Nos mostrará la aplicación *holamundo_pyside6* en ejecución.
